@@ -44,8 +44,14 @@ Aqua AI نظام منخفض التكلفة يراقب خط المياه لحظي
 نموذج أولي قيد الاختبار. نتائج الأداء (دقة الكشف، زمن الاستجابة، كمية المياه الموفرة) تُضاف بعد اكتمال الاختبارات العملية.
 
 ## الفريق
-- **المشرف:** م. عبدالله محمد الوادعي
-- **المتدربون:** حسين محمد سعيد القحطاني · وسام محمد سعيد القحطاني · عبدالله محمد سعيد القحطاني · محمد جابر قطمان القحطاني
+**المشرف:** م. عبدالله محمد الوادعي — التوجيه الفني والمراجعة والتحقق من النتائج.
+
+| العضو | الدور | المهام |
+|---|---|---|
+| حسين محمد سعيد القحطاني | **قائد الفريق** | تنسيق العمل والجدول الزمني، متابعة المهام والمشتريات، تجميع التوثيق، تقديم المشروع أمام اللجنة |
+| وسام محمد سعيد القحطاني | البرمجة والذكاء الاصطناعي | برمجة ESP32، قراءة الحساسات، خوارزمية مقارنة التدفق ومؤشر التسرب، شاشة LCD والتنبيهات |
+| عبدالله محمد سعيد القحطاني | الإلكترونيات والطاقة | منظومة الطاقة الشمسية والبطارية، توصيل الريليه والمضخة ومحوّل الجهد، الفيوز والسلامة الكهربائية، المخطط الكهربائي |
+| محمد جابر قطمان القحطاني | التجميع الهيدروليكي والاختبار | تركيب الخزان والأنابيب والحساسات على القاعدة، معايرة حساسات التدفق، تجارب التسرب وتسجيل النتائج |
 
 ## محتويات المستودع
 - `index.html` — النموذج ثلاثي الأبعاد التفاعلي (يعمل من GitHub Pages)
@@ -63,4 +69,9 @@ Aqua AI نظام منخفض التكلفة يراقب خط المياه لحظي
 - **3D demo:** https://alwadai1.github.io/aqua-ai/
 - **Project page:** https://www.ruaad.tech/projects/176
 - **Status:** prototype under test; measured results will be added after lab testing.
-- **Team:** supervised by Eng. Abdullah Mohammed Alwadai, with trainees Hussein, Wesam, Abdullah and Mohammed Al-Qahtani — Technical College, Dhahran Al-Janoub (TVTC).
+- **Team** — Technical College, Dhahran Al-Janoub (TVTC):
+  - Hussein Mohammed Saeed Al-Qahtani — **Team leader** (coordination, documentation, presentation)
+  - Wesam Mohammed Saeed Al-Qahtani — Programming & AI (ESP32 firmware, leak-detection logic)
+  - Abdullah Mohammed Saeed Al-Qahtani — Electronics & power (solar system, relay, wiring, safety)
+  - Mohammed Jaber Qatman Al-Qahtani — Hydraulics & testing (assembly, sensor calibration, leak tests)
+  - Supervisor: Eng. Abdullah Mohammed Alwadai
